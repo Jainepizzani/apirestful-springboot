@@ -99,7 +99,21 @@
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!--  Firebase Admin  -->
+		<dependency>
+			<groupId>com.google.firebase</groupId>
+			<artifactId>firebase-admin</artifactId>
+			<version>6.8.0</version>
+		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>spring-repo</id>
+			<url>https://maven.google.com/</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>
